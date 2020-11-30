@@ -1,0 +1,45 @@
+#Clock{
+position: relative;
+margin: auto;
+height: 82vw;
+width: 40vw;
+background: url(clock.png) no-repeat;
+background-size: 100%;
+
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius:10px;;
+    transform-origin: bottom;
+}
+#hour{
+    height: 10%;
+    width: 1%;
+    top: 14.7%;
+    left: 49.5%;
+    background: green;
+}
+#minute{
+    height: 12.05%;
+    width: 1%;
+    top: 12.7%;
+    left: 49.5%;
+    background: blue;
+}
+#second{
+    height: 16%;
+    width: 1%;
+    top: 8.7%;
+    left: 49.5%;
+    background: orange; 
+}
+#Name{
+    color: indigo;
+    float: left;
+   height: 10%;
+   width: 20%;
+   font-family: 'Alata', sans-serif;
+   top: 80%;
+    display: flex;
+}
